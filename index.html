@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1054dc667a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- ---------------------------------------------------HEADER SECTION------------------------------------------------------------------------------ -->
+
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>ML Beginner</p>
+            <h1>I Am <span>Tushar </span> Gupta</h1>
+        </div>
+       </div>
+    </div>
+    
+    <!-- -------------------------------------------------------ABOUT SECTION---------------------------------------------------------------------------- -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/main.jpeg" alt="Something wrong">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, distinctio nesciunt, quod velit placeat beatae, quae repellendus voluptatem obcaecati neque culpa molestiae! Magni deleniti, fuga quibusdam eveniet libero, ea nisi dolore minima cum recusandae vitae nesciunt culpa accusamus dolorum officia iusto necessitatibus esse maiores totam? Sed sequi totam nulla vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus distinctio quibusdam veniam possimus fugit iusto eveniet repellendus harum fuga asperiores doloribus dolore illo atque nemo, tempore amet et! Quod, saepe!  
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="fun('skills')">Skills</p>
+                        <p class="tab-links" onclick="fun('experience')">Experience</p>
+                        <p class="tab-links" onclick="fun('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                            <li><span>Programming Language</span> <br> C / JAVA / Python </li>
+                            <li><span>Web Development</span> <br> HTML / CSS / JavaScript </li>
+                          </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                          <li> <span>2022</span> <br> Participate in Smart India Hackathon</li>
+                         
+                        </ul>
+                  </div>
+
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li> <span>Current-2022</span> <br><a href="https://www.gla.ac.in/" target="_blank"> B.Tech from GLA University</a> </li>
+                      <li><span>2020</span> <br><a href="https://seemaxschool.co.in/" target="_blank"> Intermediate from Seemax International School</a> </li>
+                      <li><span>2018</span> <br> <a href="https://seemaxschool.co.in/" target="_blank"> Intermediate from Seemax International School</a> </li>
+                    </ul>
+              </div>
+
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    
+    <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloremque explicabo itaque ullam quaerat ipsum sed omnis eos, ab molestiae voluptatibus eaque labore nihil, excepturi incidunt nemo, perferendis cupiditate ducimus!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloremque explicabo itaque ullam quaerat ipsum sed omnis eos, ab molestiae voluptatibus eaque labore nihil, excepturi incidunt nemo, perferendis cupiditate ducimus!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero doloremque explicabo itaque ullam quaerat ipsum sed omnis eos, ab molestiae voluptatibus eaque labore nihil, excepturi incidunt nemo, perferendis cupiditate ducimus!</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+          </div>
+    </div>
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/im1.png" alt="">
+                    <div class="layer">
+                        <h3>Python Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti praesentium dolorum eveniet repellendus. Nostrum, magni optio placeat aperiam iure natus ipsam dolorum possimus impedit quas nemo. Quo, maxime voluptate?</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/im2.webp" alt="">
+                    <div class="layer">
+                        <h3>Machine Learning Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti praesentium dolorum eveniet repellendus. Nostrum, magni optio placeat aperiam iure natus ipsam dolorum possimus impedit quas nemo. Quo, maxime voluptate?</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/im3.png" alt="">
+                    <div class="layer">
+                        <h3>Web Development Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti praesentium dolorum eveniet repellendus. Nostrum, magni optio placeat aperiam iure natus ipsam dolorum possimus impedit quas nemo. Quo, maxime voluptate?</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+
+     <!-- -----------------------------------------------------CONTACT ME--------------------------------------------------------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <div class="sub-title">Contact Me</div>
+                   <p><i class="fas fa-paper-plane"></i>tushargupta22016@gmail.com</p>
+                   <p> <i class="fas fa-phone-square-alt"></i> 9760434380</p>
+                   <div class="social-icons">
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                   </div>
+                   <a href="#" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                     <form name="submit-to-google-sheet" action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                     <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"> 
+            <p>Copyright &#169; 2022 Tushar Gupta.</p>
+        </div>
+    </div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function fun(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzag_yYLm9ptOKtDK2qjwDoROQSn8otVplzGj5pmR4y6KEmOA0O2GiK175i6Pxb0j7mTQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mag = document.getElementById("masg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""  
+            },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+</html>
